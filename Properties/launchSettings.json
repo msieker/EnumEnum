@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "EnumEnum": {
+      "commandName": "Project",
+      "commandLineArgs": "C:\\icg\\flightfiles-website\\Source\\FlightFiles.sln"
+    }
+  }
+}
