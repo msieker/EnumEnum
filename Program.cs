@@ -67,7 +67,6 @@ internal sealed class EnumEnumsCommand : AsyncCommand<EnumEnumsCommand.Settings>
         {
             var table = new Table();
             table.Title($"{e.Name} - {e.Project} - {e.File}:{e.LineNumber}");
-            table.MarkdownBorder();
             table.AddColumn("Name");
             table.AddColumn("Value");
             table.AddColumn("Comment");
